@@ -1,0 +1,73 @@
+/* 1. Classic Dark Cinema Theme
+Background: Dark Gray/Black (#1A1A1A or #121212)
+Primary Accent: Bright Red (#E50914)
+Secondary Accent: Gold/Yellow (#FFC107)
+Text: White (#FFFFFF) for primary text, Light Gray (#B0B0B0) for secondary text
+Cards: Slightly lighter gray (#242424) with soft shadows
+This theme gives a cinematic feel, reminiscent of the Netflix brand, and highlights the drama of the movie world */
+
+
+.container{
+    background-color: #121212
+}
+
+.button{
+    background-color: #E50914;
+}
+
+.specialbutton{
+    background-color: #E50914;
+}
+
+.textcolor{
+    color: #E50914;
+}
+.button:hover{
+    background-color: #FFC107;
+}
+
+.primaryText{
+    color: white;
+}
+
+.secondaryText{
+    color: #B0B0B0;
+}
+
+.card{
+    background-color: #242424;
+}
+
+.container_margin{
+    margin-top: 80px;
+}
+
+.txt {
+    color: white; /* Default text color */
+    transition: color 0.3s ease-in-out;
+}
+  
+.txt:hover {
+    color: #FFC107; /* Change text color on hover */
+}
+
+.textbtn{
+    color:#E50914;
+    transition: color 0.3s ease-in-out;
+}
+
+.textbtn:hover{
+    color: #FFC107;
+}
+
+.goldtext{
+    color: #FFC107 ;
+}
+
+.goldbackground{
+    background-color: #FFC107;
+}
+  
+.bgformovie{
+    background-image: "https://www.shutterstock.com/image-vector/abstract-golden-light-rays-scene-600nw-2271597037.jpghttps://static.vecteezy.com/system/resources/thumbnails/014/000/181/small/red-stage-curtain-illuminated-by-spotlights-illustration-vector.jpg";
+}

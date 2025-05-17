@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212; /* Dark background */
+      padding: 20px;
+      color: white; /* Default text color */
+    }
+    .email-container {
+      background: #242424; /* Card background */
+      border-radius: 10px; /* Rounded corners */
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    }
+    .header {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #E50914; /* Primary red for header */
+      text-align: center;
+    }
+    .content {
+      font-size: 16px;
+      line-height: 1.5;
+      color: white; /* Text color set to white */
+    }
+    .content p {
+      margin: 10px 0;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #FFC107; /* Gold text for footer */
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      background-color: #E50914; /* Primary red button */
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-align: center;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .button:hover {
+      background-color: #FFC107; /* Gold on hover */
+      color: #121212; /* Contrast text on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">Welcome to Movie Hive</div>
+    <div class="content">
+      <p>Hi <strong>{{firstName}}</strong>,</p>
+      <p>Thank you for signing up with <strong>Movie Hive</strong>!</p>
+      <p>We're thrilled to have you on board. Your account has been successfully created.</p>
+      <p>Use the button below to explore our platform and enjoy discovering amazing movies:</p>
+      <a href="#" class="button">Explore Now</a>
+      <p>If you have any questions or need assistance, feel free to contact our support team.</p>
+      <p>Thank you,<br><strong>Movie Hive Team</strong></p>
+    </div>
+    <div class="footer">&copy; 2025 Movie Hive. All rights reserved.</div>
+  </div>
+</body>
+</html>
